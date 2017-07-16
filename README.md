@@ -5,15 +5,16 @@ Input and output is text file and you can see the graph if you want (set the opt
 # Precision and Recall
 ref. https://en.wikipedia.org/wiki/Precision_and_recall
 
-when:
 True positive: the weight of true among the result from Classifier(or System)
+
 False positive: the weight of false among the result from Classfier(or System)
+
 False negative: the weight of false among the technically true set(or answer set)
 
-then:
-Precision = true positive / (true positive + false positive)
 
-Recall = true positive / (true positive + false negative)
+- Precision = true positive / (true positive + false positive)
+
+- Recall = true positive / (true positive + false negative)
 
 
 # F-measure
@@ -21,13 +22,13 @@ The harmonic average of precision and recall.
 
 F = 2 * (precision * recall) / (precision + recall)
 
-# Usage
+## Usage
 usage: evaluate.py [-h] [--ans_mode {single,multi}] [--delimiter {y}]
                    [--graph {y}]
                    input n
 
 
-# Input file format (separator is '\t')
+## Input file format (separator is '\t')
 
 - ans_mode is "single"
 
@@ -60,7 +61,7 @@ answer:0.9,answer:0.1   category1, category2, ... , categoryN   dummy_string
 .
 
 
-# Example (file: sample_input_single.txt)
+## Example (file: sample_input_single.txt)
 
 - result
 N: 1 	# of category set: 5
