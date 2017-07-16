@@ -1,0 +1,7 @@
+A:0.8,B:0.2	A, B, C, D	d
+A:0.5,B:0.5	B, E, A, D	d
+A:0.7,B:0.3	C, A, D, B	d
+B:0.9,C:0.1	C, B, D, E	d
+B:0.9,C:0.1	D, E, C, A	d
+B:0.9,C:0.1	A, B, E, C	d
+B:0.9,C:0.1	A, B, E, D	d
